@@ -19,11 +19,14 @@
 // });
 
 // ３番
-Route::get('XXX', 'XXX\AAAController@bbb');
+// Route::get('XXX', 'XXX\AAAController@bbb');
 
 
 // ４番
 
 Route::get('admin/profile/create', 'Admin\profileController@add');
 
-Route::get('admin/profile/edit', 'Admin\profileController@action');
+Route::get('admin/profile/edit', 'Admin\profileController@edit');
+
+
+// Route::get('admin/news/create', 'Admin\NewsController@add');
